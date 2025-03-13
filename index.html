@@ -175,6 +175,29 @@
         content: url('We are da one 2025 03 09 04.png'); /* スマホ用画像 */
     }
 }
+
+        /* 埋め込み画像のスタイル */
+.embedded-image {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 75%;
+}
+
+.embedded-image img {
+    width: 100%;
+    height: auto;
+    max-width: 1920px;
+    max-height: 1080px;
+    object-fit: contain;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .embedded-image {
+        width: 100%;
+    }
+}
         /* 本文 */
         main {
             padding: 20px;
@@ -503,9 +526,16 @@
 
 <main>
     <div class="main-content">
-        <h1><center>研究発表へようこそ！</center></h1>
-        <p>&emsp;研究者を名乗る不審者、Ｎ橋Ａ生の研究発表用のサイトです。ポスターセッションでは説明し切れない情報がてんこもりですので、ぜひともごゆっくりご覧ください。まだまだ研究は始まったばかりでガバガバな点も多いですが、ご理解とご協力をよろしくお願いいたします。<br>
+        <h1><center>研究の入り口</center></h1>
+        <p>&emsp;時は2022年…。<br>
+        <p>&emsp;一人の変な男が研究のためにのこのことこの学校へやってきました…。<br>
+        <p>&emsp;それが、<br>
             <br>
+        </p>
+        <img src="We are da one 2025 03 09 10.png" alt="自画像中1">
+        <p><center>こ　の　男　で　あ　る　。</center><br>
+        <p>&emsp;一人の変な男が研究のためにのこのことこの学校へやってきました…。<br>
+        <p>&emsp;それが、<br>
             <br>
         </p>
     </div>
